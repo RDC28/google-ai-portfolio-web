@@ -1,0 +1,62 @@
+
+import { Project, ProjectCategory } from '../types';
+
+export const projects: Project[] = [
+  {
+    id: 1,
+    title: 'Customer Churn Prediction',
+    description: 'A machine learning model to predict customer churn for a subscription-based service, helping to proactively retain customers.',
+    imageUrl: 'https://picsum.photos/seed/churn/600/400',
+    tags: ['Python', 'Scikit-learn', 'Pandas', 'Classification'],
+    sourceUrl: 'https://github.com/example/churn-prediction',
+    category: ProjectCategory.DATA_SCIENCE,
+  },
+  {
+    id: 2,
+    title: 'Real-time Sentiment Analysis',
+    description: 'Developed a system to analyze real-time sentiment of social media posts using NLP techniques, providing insights into public opinion.',
+    imageUrl: 'https://picsum.photos/seed/sentiment/600/400',
+    tags: ['NLP', 'TensorFlow', 'Keras', 'Real-time'],
+    projectUrl: 'https://example.com/sentiment-dashboard',
+    sourceUrl: 'https://github.com/example/sentiment-analysis',
+    category: ProjectCategory.DATA_SCIENCE,
+  },
+  {
+    id: 3,
+    title: 'AI-Powered Art Generator',
+    description: 'A fun project using Generative Adversarial Networks (GANs) to create unique, abstract art pieces from random noise.',
+    imageUrl: 'https://picsum.photos/seed/artgen/600/400',
+    tags: ['PyTorch', 'GANs', 'Creative AI', 'Python'],
+    projectUrl: 'https://example.com/art-generator',
+    sourceUrl: 'https://github.com/example/art-generator',
+    category: ProjectCategory.FUN,
+  },
+  {
+    id: 4,
+    title: 'Sales Forecasting Model',
+    description: 'A time-series forecasting model to predict future sales with high accuracy, enabling better inventory and resource management.',
+    imageUrl: 'https://picsum.photos/seed/sales/600/400',
+    tags: ['Time Series', 'ARIMA', 'Statsmodels', 'Forecasting'],
+    sourceUrl: 'https://github.com/example/sales-forecasting',
+    category: ProjectCategory.DATA_SCIENCE,
+  },
+  {
+    id: 5,
+    title: 'Interactive Data Visualization',
+    description: 'A web-based interactive dashboard visualizing global climate change data, built with D3.js for a rich user experience.',
+    imageUrl: 'https://picsum.photos/seed/dataviz/600/400',
+    tags: ['D3.js', 'JavaScript', 'Data Visualization', 'React'],
+    projectUrl: 'https://example.com/climate-viz',
+    sourceUrl: 'https://github.com/example/dataviz',
+    category: ProjectCategory.FUN,
+  },
+  {
+    id: 6,
+    title: 'Image Recognition API',
+    description: 'Built and deployed a REST API for an image recognition model (CNN) capable of identifying over 1000 common objects.',
+    imageUrl: 'https://picsum.photos/seed/imageapi/600/400',
+    tags: ['Deep Learning', 'CNN', 'Flask', 'Docker', 'API'],
+    sourceUrl: 'https://github.com/example/image-api',
+    category: ProjectCategory.DATA_SCIENCE,
+  },
+];
